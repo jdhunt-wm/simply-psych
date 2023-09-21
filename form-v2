@@ -1,0 +1,108 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+<style>
+  /* Style the button with no border width */
+  .borderless-button {
+    border: none;
+    padding: 10px 20px; /* You can adjust the padding as needed */
+    background-color: #fdcf1e; /* Change the background color to your preference */
+    color: #000000; /* Change the text color to your preference */
+    cursor: pointer;
+  }
+</style>
+
+<input type=hidden name="oid" value="00DHp000001sCXG">
+<input type=hidden name="retURL" value="https://simplypsych.com/">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="sara.macey@sevenpoints.co">                                      -->
+<!--  ----------------------------------------------------------------------  -->
+<b>What is your goal?:</b><br><br><id="00NHp00000We1HB" multiple="multiple" name="00NHp00000We1HB" title="What is your goal?">
+  
+<input type="checkbox" id="new-practice" name="new-practice" value="Build a New Practice">
+  <label for="new-practice">Build a New Practice&nbsp;&nbsp;</label>
+  
+<input type="checkbox" id="grow-practice" name="grow-practice" value="Grow & Scale My Practice">
+  <label for="grow-practice"> Grow & Scale My Practice&nbsp;&nbsp;</label>
+  
+<input type="checkbox" id="maintain-practice" name="maintain-practice" value="Maintain My Practice">
+  <label for="maintain-practice">Maintain My Practice&nbsp;&nbsp;</label>
+  
+<input type="checkbox" id="not-sure" name="not-sure" value="I'm Not Sure">
+  <label for="not-sure">I'm Not Sure&nbsp;&nbsp;</label><br><br><Br>  
+  
+
+
+  <b>Which ball are you dropping?:</b><br><br><id="00NHp00000We1HC" multiple="multiple" name="00NHp00000We1HC" title="Which ball are you dropping?">
+  
+<input type="checkbox" id="billing" name="billing" value="Billing">
+  <label for="billing">Billing&nbsp;&nbsp;</label>
+
+<input type="checkbox" id="scheduling" name="scheduling" value="Scheduling">
+  <label for="scheduling">Scheduling&nbsp;&nbsp;</label>
+  
+<input type="checkbox" id="intake-management" name="intake-management" value="Intake Management">
+  <label for="intake-management">Intake Management&nbsp;&nbsp;</label>
+  
+<input type="checkbox" id="support-staff" name="support-staff" value="Support Staff">
+  <label for="support-staff">Support Staff&nbsp;&nbsp;</label>
+
+<input type="checkbox" id="office-coordination" name="office-coordination" value="Office Coordination">
+  <label for="office-coordination">Office Coordination&nbsp;&nbsp;</label><br>
+  
+<input type="checkbox" id="marketing" name="marketing" value="Marketing & Business Growth">
+  <label for="marketing">Marketing & Business Growth&nbsp;&nbsp;</label>
+  
+<input type="checkbox" id="money-management" name="money-management" value="Money Management">
+  <label for="money-management">Money Management&nbsp;&nbsp;</label>
+  
+<input type="checkbox" id="other" name="other" value="Other">
+  <label for="other">Other</label><br><br> 
+  
+
+  <label for="first_name"><b>First Name</b>&nbsp;&nbsp;</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br><br>
+
+  <label for="last_name"><b>Last Name</b>&nbsp;&nbsp;</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br><br>
+
+  <b>What are your credentials?:</b>&nbsp;&nbsp;<input  id="00NHp00000We1HG" maxlength="255" name="00NHp00000We1HG" size="20" type="text" /><br><br>
+
+  <label for="company"><b>Company</b>&nbsp;&nbsp;</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br><br>
+
+  <label for="url"><b>Website</b>&nbsp;&nbsp;</label><input  id="url" maxlength="80" name="url" size="20" type="text" /><br><br>
+
+  <label for="email"><b>Email</b>&nbsp;&nbsp;</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br><br>
+
+  <label for="phone"><b>Phone</b>&nbsp;&nbsp;</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br><br>
+
+<b>Preferred Contact Method:<b>&nbsp;&nbsp;<select  id="00NHp00000We1HL" name="00NHp00000We1HL" title="Preferred Contact Method"><option value="">--None--</option><option value="Phone">Phone</option>
+<option value="Email">Email</option>
+<option value="No preference">No preference</option>
+</select><br><br>
+
+  <b>How&#39;d you hear about us?:</b>&nbsp;&nbsp;<input  id="00NHp00000We1OD" maxlength="255" name="00NHp00000We1OD" size="20" type="text" /><br>
+
+<input type="hidden"  id="lead_source" name="lead_source" value="Simply Psych Website" /><br>
+
+<input type="hidden"  id="owner" name="owner" value="00GHp000004Vsnn" /><br>
+
+<input type="submit" name="submit" class="borderless-button">
+
+<input type="hidden"  id="country_code" name="country_code" value="US" /><br>  
+  
+</form>

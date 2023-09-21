@@ -44,8 +44,8 @@
 <input type="checkbox" id="maintain-practice" name="maintain-practice" value="Maintain My Practice">
   <label for="maintain-practice">Maintain My Practice&nbsp;&nbsp;</label>
   
-<input type="checkbox" id="not-sure" name="not-sure" value="I'm Not Sure">
-  <label for="not-sure">I'm Not Sure&nbsp;&nbsp;</label><br><br><Br>  
+<input type="checkbox" id="not-sure" name="not-sure" value="I&#39;m Not Sure">
+  <label for="not-sure">I&#39;m Not Sure&nbsp;&nbsp;</label><br><br><Br>  
   
 
 

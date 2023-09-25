@@ -1,0 +1,146 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<script>
+        function validateForm() {
+            // Get references to the checkboxes for the first question by their unique IDs
+            var goalCheckboxes = [
+                document.getElementById('00NHp00000ZiBrt'),
+                document.getElementById('00NHp00000ZiBry'),
+                document.getElementById('00NHp00000ZiBs3'),
+                document.getElementById('00NHp00000ZiBs8')
+            ];
+
+            // Check if at least one checkbox is checked for the first question
+            var goalChecked = goalCheckboxes.some(function(checkbox) {
+                return checkbox.checked;
+            });
+
+            // Get references to the checkboxes for the second question by their unique IDs
+            var ballCheckboxes = [
+                document.getElementById('00NHp00000ZiBsD'),
+                document.getElementById('00NHp00000ZiBsI'),
+                document.getElementById('00NHp00000ZiBsN'),
+                document.getElementById('00NHp00000ZiBsS'),
+                document.getElementById('00NHp00000ZiBsc'),
+                document.getElementById('00NHp00000ZiBsm'),
+                document.getElementById('00NHp00000ZiBsw'),
+                document.getElementById('00NHp00000ZiBt6')
+            ];
+
+            // Check if at least one checkbox is checked for the second question
+            var ballChecked = ballCheckboxes.some(function(checkbox) {
+                return checkbox.checked;
+            });
+
+            // Check if at least one checkbox is checked for each question
+            if (!goalChecked) {
+                alert("Please select at least one goal for the first question.");
+                return false; // Prevent form submission
+            }
+
+            if (!ballChecked) {
+                alert("Please select at least one option for the second question.");
+                return false; // Prevent form submission
+            }
+
+            return true; // Allow form submission
+        }
+  
+  		function showConfirmation() {
+            // Display a confirmation message
+            alert("Thanks for reaching out to Simply Psych! We look forward to connecting with you soon!");
+        }
+    </script>
+
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" onsubmit="return validateForm();">
+  
+<style>
+  /* Style the button with no border width */
+  .borderless-button {
+    border: none;
+    padding: 10px 20px; /* You can adjust the padding as needed */
+    background-color: #fdcf1e; /* Change the background color to your preference */
+    color: #000000; /* Change the text color to your preference */
+    cursor: pointer;
+  }
+</style>
+
+<input type=hidden name="oid" value="00DHp000001sCXG">
+<input type=hidden name="retURL" value="https://simplypsych.com/">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="sara.macey@sevenpoints.co">                                      -->
+<!--  ----------------------------------------------------------------------  -->
+
+What is your goal?<br><br>
+<input  id="00NHp00000ZiBrt" name="00NHp00000ZiBrt" type="checkbox" value="1" /> Build a New Practice   
+
+<input  id="00NHp00000ZiBry" name="00NHp00000ZiBry" type="checkbox" value="1" /> Grow & Scale My Practice   
+
+<input  id="00NHp00000ZiBs3" name="00NHp00000ZiBs3" type="checkbox" value="1" /> Maintain My Practice  
+
+<input  id="00NHp00000ZiBs8" name="00NHp00000ZiBs8" type="checkbox" value="1" /> I'm Not Sure  <br><br>
+
+Which ball are you dropping?<br><br>
+
+<input  id="00NHp00000ZiBsD" name="00NHp00000ZiBsD" type="checkbox" value="1" /> Billing  
+
+<input  id="00NHp00000ZiBsI" name="00NHp00000ZiBsI" type="checkbox" value="1" /> Scheduling  
+
+<input  id="00NHp00000ZiBsN" name="00NHp00000ZiBsN" type="checkbox" value="1" /> Intake Management  
+
+<input  id="00NHp00000ZiBsS" name="00NHp00000ZiBsS" type="checkbox" value="1" /> Support Staff  
+
+<input  id="00NHp00000ZiBsc" name="00NHp00000ZiBsc" type="checkbox" value="1" /> Office Coordination  <br>
+
+<input  id="00NHp00000ZiBsm" name="00NHp00000ZiBsm" type="checkbox" value="1" /> Marketing & Business Growth  
+
+<input  id="00NHp00000ZiBsw" name="00NHp00000ZiBsw" type="checkbox" value="1" /> Money Management  
+
+<input  id="00NHp00000ZiBt6" name="00NHp00000ZiBt6" type="checkbox" value="1" /> Other<br><br>
+
+<label for="first_name"></label><input  id="first_name" maxlength="40" name="first_name" size="40" type="text" placeholder="  First Name" style="height: 40px; border-radius: 5px;"/>  
+
+<label for="last_name"></label><input  id="last_name" maxlength="80" name="last_name" size="40" type="text" placeholder="  Last Name" style="height: 40px; border-radius: 5px;" /><br><br>
+
+<input  id="00NHp00000We1HG" maxlength="255" name="00NHp00000We1HG" size="100" type="text" placeholder="  What are your credentials?" style="height: 40px; border-radius: 5px;" /><br><br>
+
+<label for="company"></label><input  id="company" maxlength="40" name="company" size="100" type="text" placeholder="  Already have a practice? What's it called?" style="height: 40px; border-radius: 5px;" /><br><br>
+
+<label for="url"></label><input  id="url" maxlength="80" name="url" size="100" type="text" placeholder="  If you've got a website, please list it here. We'd love to learn more about you!" style="height: 40px; border-radius: 5px;" /><br><br>
+
+<label for="email"></label><input  id="email" maxlength="80" name="email" size="100" type="text"placeholder="  What's your e-mail address?" style="height: 40px; border-radius: 5px;" /><br><br>
+
+<label for="phone"></label><input  id="phone" maxlength="40" name="phone" size="100" type="text" placeholder="  Phone Number" style="height: 40px; border-radius: 5px;" /><br><br>
+
+<input  id="00NHp00000We1OD" maxlength="255" name="00NHp00000We1OD" size="100" type="text" placeholder="  How'd you hear about us?" style="height: 40px; border-radius: 5px;" /><br><br> 
+
+<select  id="00NHp00000We1HL" name="00NHp00000We1HL" title="Preferred Contact Method" style="height: 40px; border-radius: 5px;"><option value="">&nbsp;-- Please Select Your Preferred Contact Method --&nbsp;</option><option value="Phone">Phone</option>
+<option value="Email">Email</option>
+<option value="No preference">No preference</option>
+</select>
+
+<input type="hidden"  id="lead_source" name="lead_source" value="Simply Psych Website" /><br>
+
+<input type="hidden"  id="country_code" name="country_code" value="US" /><br>
+
+<input type="hidden"  id="owner" name="owner" value="00GHp000004Vsnn" /><br>
+
+<input type="submit" name="submit" class="borderless-button">
+
+</form>

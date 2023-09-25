@@ -1,0 +1,93 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+  
+<style>
+  /* Style the button with no border width */
+  .borderless-button {
+    border: none;
+    padding: 10px 20px; /* You can adjust the padding as needed */
+    background-color: #fdcf1e; /* Change the background color to your preference */
+    color: #000000; /* Change the text color to your preference */
+    cursor: pointer;
+  }
+</style>
+
+<input type=hidden name="oid" value="00DHp000001sCXG">
+<input type=hidden name="retURL" value="https://simplypsych.com/">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="sara.macey@sevenpoints.co">                                      -->
+<!--  ----------------------------------------------------------------------  -->
+
+What is your goal?<br><br>
+<input  id="00NHp00000ZiBrt" name="00NHp00000ZiBrt" type="checkbox" value="1" /> Build a New Practice&nbsp; &nbsp;
+
+<input  id="00NHp00000ZiBry" name="00NHp00000ZiBry" type="checkbox" value="1" /> Grow &amp; Scale My Practice &nbsp;&nbsp;
+
+<input  id="00NHp00000ZiBs3" name="00NHp00000ZiBs3" type="checkbox" value="1" /> Maintain My Practice&nbsp;&nbsp;
+
+<input  id="00NHp00000ZiBs8" name="00NHp00000ZiBs8" type="checkbox" value="1" /> I&#39;m Not Sure&nbsp;&nbsp;<br><br>
+
+Which ball are you dropping?<br><br>
+
+<input  id="00NHp00000ZiBsD" name="00NHp00000ZiBsD" type="checkbox" value="1" /> Billing&nbsp;&nbsp;
+
+<input  id="00NHp00000ZiBsI" name="00NHp00000ZiBsI" type="checkbox" value="1" /> Scheduling&nbsp;&nbsp;
+
+<input  id="00NHp00000ZiBsN" name="00NHp00000ZiBsN" type="checkbox" value="1" /> Intake Management&nbsp;&nbsp;
+
+<input  id="00NHp00000ZiBsS" name="00NHp00000ZiBsS" type="checkbox" value="1" /> Support Staff&nbsp;&nbsp;
+
+<input  id="00NHp00000ZiBsc" name="00NHp00000ZiBsc" type="checkbox" value="1" /> Office Coordination&nbsp;&nbsp;<br>
+
+<input  id="00NHp00000ZiBsm" name="00NHp00000ZiBsm" type="checkbox" value="1" /> Marketing &amp; Business Growth&nbsp;&nbsp;
+
+<input  id="00NHp00000ZiBsw" name="00NHp00000ZiBsw" type="checkbox" value="1" /> Money Management&nbsp;&nbsp;
+
+<input  id="00NHp00000ZiBt6" name="00NHp00000ZiBt6" type="checkbox" value="1" /> Other<br><br>
+
+<label for="first_name">First Name&nbsp;&nbsp;&nbsp;&nbsp;</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br><br>
+
+<label for="last_name">Last Name&nbsp;&nbsp;&nbsp;&nbsp;</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br><br>
+
+What are your credentials?&nbsp;&nbsp;&nbsp;&nbsp;<input  id="00NHp00000We1HG" maxlength="255" name="00NHp00000We1HG" size="20" type="text" /><br><br>
+
+<label for="company">Company&nbsp;&nbsp;&nbsp;&nbsp;</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br><br>
+
+<label for="url">Website&nbsp;&nbsp;&nbsp;&nbsp;</label><input  id="url" maxlength="80" name="url" size="20" type="text" /><br><br>
+
+<label for="email">Email&nbsp;&nbsp;&nbsp;&nbsp;</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br><br>
+
+<label for="phone">Phone&nbsp;&nbsp;&nbsp;&nbsp;</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br><br>
+
+Preferred Contact Method:&nbsp;&nbsp;&nbsp;&nbsp;<select  id="00NHp00000We1HL" name="00NHp00000We1HL" title="Preferred Contact Method"><option value="">--None--</option><option value="Phone">Phone</option>
+<option value="Email">Email</option>
+<option value="No preference">No preference</option>
+</select><br><br>
+
+How&#39;d you hear about us?&nbsp;&nbsp;&nbsp;&nbsp;<input  id="00NHp00000We1OD" maxlength="255" name="00NHp00000We1OD" size="80" type="text" placeholder="  How'd you hear about us?" style="height: 40px; background-color: white; border-radius: 5px;" /><br>
+
+<input type="hidden"  id="lead_source" name="lead_source" value="Simply Psych Website" /><br>
+
+<input type="hidden"  id="country_code" name="country_code" value="US" /><br>
+
+<input type="hidden"  id="owner" name="owner" value="00GHp000004Vsnn" /><br>
+
+<input type="submit" name="submit" class="borderless-button">
+
+</form>
